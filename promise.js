@@ -1,7 +1,7 @@
 let car = {
   brand: "honda city",
   price: "16 lacks",
-  isavailble: true,
+  isAvailable: true,
 };
 
 let promise = new Promise((resolve, reject) => {
