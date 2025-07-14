@@ -13,7 +13,7 @@ console.log(sum(2,4))
 let total = 0;
 
 function add(a){
-    const value = total += a
+    const value = total + a
     return value
 }
 
