@@ -8,7 +8,6 @@ function intersection(arr, arr2){
         }
     }
     return value
-
 }
 
 console.log(intersection([1,2,3], [2,3,4]));
