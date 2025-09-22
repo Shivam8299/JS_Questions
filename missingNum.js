@@ -1,9 +1,8 @@
-let arr = [1, 2, 3, 5, 6, 7, 8];
-function missingNum(arr) {
-  let n = arr.length + 1;
-  let val = (n * (n + 1)) / 2;
-  let sumArr = arr.reduce((a, b) => a + b);
-  return val - sumArr;
+function missingNum (arr){
+  let n = arr.length+1
+  let total = (n*(n+1))/2
+let sum = arr.reduce((a,b)=>a+b,0)
+return total-sum
 }
 
-console.log(missingNum(arr));
+console.log(missingNum([1, 2, 3, 5, 6, 7, 8]))
